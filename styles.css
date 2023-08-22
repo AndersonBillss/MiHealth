@@ -1,0 +1,90 @@
+body, h1, h2, h3, p, a{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 16pt;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+h1 {
+    font-weight: 900;
+    font-size: 48pt;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+h2 {
+    font-weight: 900;
+    font-size: 24pt;
+    padding: 25px 0 25px 75px;
+    right:300px;
+}
+a{
+    margin-right:75px;
+    font-size: 14pt;
+}
+img{
+    width: 300px;
+    height: 450px;
+    margin-left: 10px;
+    object-fit: cover;
+}
+h3{
+    font-weight: 550;
+    margin-top: 50px;
+}
+
+.content {
+    background-image: url(moroccan-flower.png);
+    padding-bottom: 40px;
+}
+.red {
+    color: rgb(195, 0, 0);
+}
+.green {
+    color:yellowgreen;
+}
+.tabs {
+    float: right;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.text {
+    display: inline-block;
+    width: 320px;
+    padding: 75px;
+    padding-right: 0;
+}
+.images {
+    float: right;
+    margin-top: 75px;
+    margin-right: 75px;
+}
+
+
+.caption{
+    position:absolute;
+    font-weight: 550;
+    margin-left: 140px;
+    margin-top: 360.5px;
+}
+.captionW{
+    position: absolute;
+    background-color: white;
+    width: 80px;
+    padding:10px;
+    margin-left: 50px;
+    padding-right: 30px;
+    text-align: end;
+}
+.captionG{
+    position: absolute;
+    background-color: yellowgreen;
+    padding:10px;
+    width: 130px;
+    margin-top: 45px;
+    padding-right: 30px;
+    text-align: end;
+}
