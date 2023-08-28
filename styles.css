@@ -25,8 +25,8 @@ a{
     font-size: 14pt;
 }
 img{
-    width: 300px;
-    height: 450px;
+    width: 350px;
+    height: 500px;
     margin-left: 10px;
     object-fit: cover;
 }
@@ -34,10 +34,20 @@ h3{
     font-weight: 550;
     margin-top: 50px;
 }
+.top{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    flex-wrap: wrap;
+}
 
 .content {
     background-image: url(moroccan-flower.png);
     padding-bottom: 40px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .red {
     color: rgb(195, 0, 0);
@@ -46,45 +56,47 @@ h3{
     color:yellowgreen;
 }
 .tabs {
-    float: right;
     font-size: 16px;
     margin-top: 20px;
     margin-right: 100px;
+
 }
 .text {
     display: inline-block;
-    width: 320px;
+    width: 350px;
     padding: 75px;
-    padding-right: 0;
 }
-.images {
-    float: right;
-    margin-top: 75px;
-    margin-right: 75px;
+
+.image{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 15px 0 0;
+    position: relative;
+    text-align: right;
 }
 
 
 .caption{
-    position:absolute;
-    font-weight: 550;
-    margin-left: 140px;
-    margin-top: 360.5px;
+position: absolute;
+bottom:0;
+right:0;
+display: flex;
+flex-direction: column;
+align-items: end;
+font-weight: bold;
 }
 .captionW{
-    position: absolute;
     background-color: white;
-    width: 80px;
-    padding:10px;
-    margin-left: 50px;
-    padding-right: 30px;
-    text-align: end;
+    padding: 15px;
+    width: 100px;
 }
 .captionG{
-    position: absolute;
-    background-color: yellowgreen;
-    padding:10px;
-    width: 130px;
-    margin-top: 45px;
-    padding-right: 30px;
-    text-align: end;
+    background-color:yellowgreen;
+    padding: 15px;
+    width:  150px;
+}
+h3 img{
+    height: 50px;
+    width: auto;
+    margin-bottom: -17px;
 }
